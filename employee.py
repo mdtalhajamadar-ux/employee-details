@@ -1,0 +1,16 @@
+import pytest
+def employee_details(name, emp_id, department, salary):
+    return (
+        f"Employee Name: {name}\n"
+        f"Employee ID: {emp_id}\n"
+        f"Department: {department}\n"
+        f"Salary: {salary}"
+    )
+    return result
+if__name_ == "_main_":
+#sample input(you can change)
+name="Alice"
+emp_id="E1001"
+department="IT"
+salary=55000
+print(employee_details(name, emp_id, department, salary))
